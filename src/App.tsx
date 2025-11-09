@@ -31,7 +31,7 @@ export default function App() {
             {/* 초대 문구 입력창 */}
             <div className="flex flex-row justify-center items-center gap-2 mb-8">
               <p className="text-lg">🎂</p>
-              <h2 className="text-gray-200 text-lg font-light">
+              <h2 className="text-gray-300 text font-bold">
                 생일파티에 초대합니다
               </h2>
             </div>

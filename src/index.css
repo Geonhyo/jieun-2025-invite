@@ -1,13 +1,13 @@
 @font-face {
   font-family: 'BookkMyungjo';
-  src: url('/fonts/BookkMyungjo_Bold.ttf') format('truetype');
+  src: url('/fonts/BookkMyungjo_Bold.woff2') format('woff2'), url('/fonts/BookkMyungjo_Bold.ttf') format('truetype');
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'BookkMyungjo';
-  src: url('/fonts/BookkMyungjo_Light.ttf') format('truetype');
+  src: url('/fonts/BookkMyungjo_Light.woff2') format('woff2'), url('/fonts/BookkMyungjo_Light.ttf') format('truetype');
   font-weight: 300;
   font-style: normal;
 }
