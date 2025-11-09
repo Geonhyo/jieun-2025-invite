@@ -23,7 +23,7 @@ export default function App() {
         <div className="w-full bg-[#242628] flex flex-col items-center ">
           <div className="max-w-[390px] w-full flex flex-col items-center px-6 py-12">
             {/* 헤더 */}
-            <h1 className="text-5xl font-bold text-center leading-tight mt-[40%] mb-4">
+            <h1 className="text-5xl font-bold text-center leading-tight mt-[30%] mb-4">
               <span className="block">HAPPY</span>
               <span className="block">JIEUN DAY</span>
             </h1>
