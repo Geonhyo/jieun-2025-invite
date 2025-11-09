@@ -84,7 +84,7 @@ export default function App() {
                 loading="lazy"
               />
               <p className="text-[#F9F9F9] text-lg font-light">
-                2025.12.19 / 오후 9시
+                2025.12.19 (금) / 오후 9시
               </p>
             </div>
             <div className="w-full flex flex-row items-center gap-4 mb-8">
