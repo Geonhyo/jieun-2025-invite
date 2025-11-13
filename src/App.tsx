@@ -21,15 +21,15 @@ export default function App() {
     <>
       <div className="w-full min-h-screen text-white font-bookk-myungjo flex flex-col items-center ">
         <div className="w-full bg-[#242628] flex flex-col items-center ">
-          <div className="max-w-[390px] w-full flex flex-col items-center px-6 py-12">
+          <div className="max-w-[390px] w-full flex flex-col items-center py-12">
             {/* 헤더 */}
-            <h1 className="text-5xl font-bold text-center leading-tight mt-[30%] mb-4">
+            <h1 className="text-5xl font-bold text-center leading-tight mt-[30%] mb-4 px-6 ">
               <span className="block">HAPPY</span>
               <span className="block">JIEUN DAY</span>
             </h1>
 
             {/* 초대 문구 입력창 */}
-            <div className="flex flex-row justify-center items-center gap-2 mb-8">
+            <div className="flex flex-row justify-center items-center gap-2 mb-8 px-6 ">
               <p className="text-lg">🎂</p>
               <h2 className="text-gray-300 text font-bold">
                 생일파티에 초대합니다
@@ -37,37 +37,41 @@ export default function App() {
             </div>
 
             {/* 구분선 */}
-            <div className="w-12 h-px rounded-full bg-[#E3E3E3] mb-8" />
+            <div className="w-12 h-px rounded-full bg-[#E3E3E3] mb-8 px-6" />
 
-            {/* 아이콘 영역 (하트, 케이크, 별 등은 실제 이미지나 SVG로 교체 가능) */}
-            <div className="w-full grid grid-cols-3 gap-2 justify-items-center">
-              <span className="w-full aspect-square flex justify-center items-center bg-pink-300 text-3xl">
-                💌
-              </span>
-              <span className="w-full aspect-square flex justify-center items-center bg-pink-400 text-3xl">
-                💖
-              </span>
-              <span className="w-full aspect-square flex justify-center items-center bg-pink-500 text-3xl">
-                ✨
-              </span>
-              <span className="w-full aspect-square flex justify-center items-center bg-pink-300 text-3xl">
-                💌
-              </span>
-              <span className="w-full aspect-square flex justify-center items-center bg-pink-400 text-3xl">
-                💖
-              </span>
-              <span className="w-full aspect-square flex justify-center items-center bg-pink-500 text-3xl">
-                ✨
-              </span>
-              <span className="w-full aspect-square flex justify-center items-center bg-pink-300 text-3xl">
-                💌
-              </span>
-              <span className="w-full aspect-square flex justify-center items-center bg-pink-400 text-3xl">
-                💖
-              </span>
-              <span className="w-full aspect-square flex justify-center items-center bg-pink-500 text-3xl">
-                ✨
-              </span>
+            {/* 대표 사진들 */}
+            <div className="w-full flex flex-col justify-items-center">
+              <div className="w-full aspect-24/5">
+                <img
+                  className="w-full object-contain"
+                  src="/images/001.webp"
+                  alt="대표 사진 1"
+                />
+              </div>
+              <div className="w-full aspect-[30]" />
+              <div className="w-full aspect-24/5">
+                <img
+                  className="w-full object-contain"
+                  src="/images/002.webp"
+                  alt="대표 사진 2"
+                />
+              </div>
+              <div className="w-full aspect-[30]" />
+              <div className="w-full aspect-24/5">
+                <img
+                  className="w-full object-contain"
+                  src="/images/003.webp"
+                  alt="대표 사진 3"
+                />
+              </div>
+              <div className="w-full aspect-[30]" />
+              <div className="w-full aspect-24/5">
+                <img
+                  className="w-full object-contain"
+                  src="/images/004.webp"
+                  alt="대표 사진 4"
+                />
+              </div>
             </div>
           </div>
         </div>
@@ -163,11 +167,6 @@ export default function App() {
                 우리 12월 19일에 만나요!!
               </p>
             </div>
-
-            {/* 하단 푸터 */}
-            <small className="text-white text-center font-light mb-4">
-              © 2025 Jieun's Birthday Party
-            </small>
           </div>
         </div>
       </div>
