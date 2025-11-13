@@ -23,9 +23,11 @@ export default function App() {
         <div className="w-full bg-[#242628] flex flex-col items-center ">
           <div className="max-w-[390px] w-full flex flex-col items-center py-12">
             {/* 헤더 */}
-            <h1 className="text-5xl font-bold text-center leading-tight mt-[30%] mb-4 px-6 ">
+            <h1 className="text-5xl font-bold text-center leading-tight mt-[20%] mb-4 px-6 ">
               <span className="block">HAPPY</span>
-              <span className="block">JIEUN DAY</span>
+              <span className="block">
+                <span className="text-[#FE009C]">JIEUN</span> DAY
+              </span>
             </h1>
 
             {/* 초대 문구 입력창 */}
