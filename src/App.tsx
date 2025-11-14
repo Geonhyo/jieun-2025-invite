@@ -148,9 +148,7 @@ export default function App() {
                 어느 정도는 맞춰주시면 좋을 거 같아요
                 <br />
                 <br />
-                <strong className="font-bold">
-                  2. 케이크와 선물은 마음만 받을게요!
-                </strong>
+                <strong className="font-bold">2. 두 손은 가볍게 오세요!</strong>
                 <br />
                 선물은... 제가 몇 년째 가지고 싶던
                 <br />
