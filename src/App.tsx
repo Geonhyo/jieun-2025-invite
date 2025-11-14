@@ -167,6 +167,11 @@ export default function App() {
                 우리 12월 19일에 만나요!!
               </p>
             </div>
+
+            {/* 하단 푸터 */}
+            <small className="text-xs text-white text-center font-light mb-4">
+              © 2025 Jieun’s one and only limited BD-party-edition
+            </small>
           </div>
         </div>
       </div>
